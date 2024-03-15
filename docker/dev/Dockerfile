@@ -1,5 +1,5 @@
 # use latest python 3 alpine image.
-FROM python:3-alpine
+FROM python:3.13.0a4-alpine
 
 # install system dependencies.
 RUN apk update && apk add --no-cache \
